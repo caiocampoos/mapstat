@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon --watch src --exec ts-node src/index.ts",
     "build": "tsc",
-    "start": "node dist/main.js"
+    "clean": "rm -rf dist",    
+    "start": "node dist/index.js"
   },
   "dependencies": {
     "@koa/cors": "^4.0.0",
