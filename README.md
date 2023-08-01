@@ -13,7 +13,7 @@ Follow the series [Building a Business with Software](https://dev.to/caiocampoos
 
 
 <details>
-<summary>Or setup with pnpm</summary>
+<summary>Setup with pnpm</summary>
 Clone this repo on your machine, navigate to its location in the terminal and run:
 
 ```bash
@@ -23,7 +23,7 @@ pnpm run dev
 </details>
 
 <details>
-<summary>Or setup with docker</summary>
+<summary>Setup with docker</summary>
 Install docker and docker-compose, clone this repo on your machine, navigate to its location in the terminal and run:
 
 ```bash
