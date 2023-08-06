@@ -1,0 +1,14 @@
+{
+  "name": "shared",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "vitest": "^0.34.1",
+    "vitest-mongodb": "^0.0.5"
+  }
+}

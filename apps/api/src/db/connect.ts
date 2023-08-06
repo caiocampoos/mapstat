@@ -2,6 +2,7 @@ import 'dotenv/config';
 import mongoose from 'mongoose';
 import type { ConnectOptions } from 'mongoose';
 
+const isTest = process.env.NODE_ENV === 'test';
 const MONGO_URI = process.env.MONGO_URI || '';
 
 export const connectDB = async (options: ConnectOptions) => {
