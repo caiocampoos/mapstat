@@ -9,6 +9,9 @@ node_modules
 .pnp
 .pnp.js
 
+#docker/data
+data
+
 # testing
 coverage
 

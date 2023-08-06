@@ -1,5 +1,4 @@
-version: "3"
-
+version: '3.8'
 services:
   web:
     container_name: web
@@ -10,7 +9,7 @@ services:
     ports:
       - 3000:3000
     networks:
-      - app_network
+      - monkeyd
 
   api:
     container_name: api
@@ -21,8 +20,34 @@ services:
     ports:
       - 3001:3001
     networks:
-      - app_network
+      - monkeyd
 
+  mongodb:
+    container_name: mongodb
+    image: mongo:latest
+    command: --bind_ip_all --replSet rs0
+    ports:
+      - '28017:27017'
+    volumes:
+      - mongodb_data_container:/data/db
+      - ./scripts/mongodb/rs-init.sh:/scripts/rs-init.sh
+    networks:
+      mongo-network:
+        aliases:
+          - mongo.localhost
+        ipv4_address: 172.20.0.2
+
+volumes:
+  mongodb_data_container:
+  cache:
+    driver: local
 
 networks:
-  app_network:
+  monkeyd:
+  mongo-network:
+    name: mongo-network
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
+          gateway: 172.20.0.254
