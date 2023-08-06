@@ -5,7 +5,6 @@
 [![Build/Tests](https://github.com/caiocampoos/mapstat/actions/workflows/main.yml/badge.svg?branch=main&event=gollum)](https://github.com/caiocampoos/mapstat/actions/workflows/main.yml)
 
 
-
 _Choose a place, get your stats_
 
 Follow the series [Building a Business with Software](https://dev.to/caiocampoos/series/23821) where i post updates on the project.
