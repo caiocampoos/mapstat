@@ -5,9 +5,9 @@ import { connectDB } from './db/connect';
 
 (async () => {
     try{
-        connectDB({
-        dbName: process.env.MONGO_DB_NAME,
-    })
+        await connectDB({
+            dbName: process.env.MONGO_DB_NAME,
+            })
     Logger.info('Connected to MongoDB successfully 🚀'); 
     } catch (err) {
         Logger.error('Error connecting to MongoDB', err);
