@@ -20,7 +20,7 @@
     "mongoose": "^7.4.2",
     "pino": "^8.14.1",
     "pino-pretty": "^10.1.0",
-    "zod": "^3.17.3"
+    "zod": "^3.21.4"
   },
   "devDependencies": {
     "@types/koa": "^2.13.5",

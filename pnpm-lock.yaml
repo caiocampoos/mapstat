@@ -57,7 +57,7 @@ importers:
         specifier: ^10.1.0
         version: 10.1.0
       zod:
-        specifier: ^3.17.3
+        specifier: ^3.21.4
         version: 3.21.4
     devDependencies:
       '@types/koa':
