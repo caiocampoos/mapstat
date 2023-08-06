@@ -2,6 +2,7 @@
 
 [![Open issues][issues-badge]][issues-url]
 [![TypeScript][typescript-badge]][typescript-url]
+[![Build/Tests](https://github.com/caiocampoos/mapstat/actions/workflows/main.yml/badge.svg?branch=main&event=gollum)](https://github.com/caiocampoos/mapstat/actions/workflows/main.yml)
 
 
 
