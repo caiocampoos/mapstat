@@ -36,5 +36,5 @@ jobs:
 
       - name: Install and tetst 
         run: |
-          pnpm
+          pnpm install
           pnpm test
