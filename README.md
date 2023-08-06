@@ -2,6 +2,7 @@
 
 [![Open issues][issues-badge]][issues-url]
 [![TypeScript][typescript-badge]][typescript-url]
+[![CI](https://github.com/caiocampoos/mapstat/actions/workflows/main.yml/badge.svg)](https://github.com/caiocampoos/mapstat/actions/workflows/main.yml)
 
 
 _Choose a place, get your stats_
