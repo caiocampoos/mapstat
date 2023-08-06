@@ -6,7 +6,6 @@ import cors from '@koa/cors';
 
 const app = new Koa();
 const router = new Router();
-1
   app.use(cors({ credentials: true }));
   app.use(bodyParser());
   app.use(router.routes());
