@@ -1,7 +1,8 @@
 "use client";
+import '@radix-ui/themes/styles.css';
+import { Button } from '@radix-ui/themes';
 
-import * as React from "react";
 
-export const Button = () => {
-  return <button onClick={() => alert("boop")}>Boop</button>;
+export const StandardButton = (props:any) => {
+  return <Button size={"3"}>Learn More</Button>
 };
