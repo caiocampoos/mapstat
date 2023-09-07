@@ -1,10 +1,8 @@
 "use client";
 import '@radix-ui/themes/styles.css';
-import { Theme, Button } from '@radix-ui/themes'
+import { Button } from '@radix-ui/themes';
 
 
-export default () => (
-  <Theme>
-    <Button>Hey 👋</Button>
-  </Theme>
-)
+export const StandardButton = (props:any) => {
+  return <Button size={"3"}>Learn More</Button>
+};
