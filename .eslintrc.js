@@ -6,5 +6,6 @@ module.exports = {
     next: {
       rootDir: ["apps/*/"],
     },
+    packages: ["apps/*/"],
   },
 };
