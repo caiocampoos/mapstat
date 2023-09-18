@@ -2,12 +2,11 @@ import '@radix-ui/themes/styles.css';
 
 // wrap the project with Theme component
 import { Theme } from '@radix-ui/themes';
-import { Header } from 'ui';
-
-import { MapStatThemeProvider } from 'ui';
-
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import { Header , MapStatThemeProvider } from 'ui';
+
+
 const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'MapStat',

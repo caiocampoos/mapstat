@@ -3,11 +3,6 @@ module.exports = {
     "next",
     "turbo", 
     "prettier",
-    "airbnb/base",
-    "plugin:react/recommended",
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint'
   ],
   rules: {
     "@next/next/no-html-link-for-pages": "off",
