@@ -1,10 +1,10 @@
 import request from 'supertest';
-import { afterAll, expect, test } from 'vitest'
+import { expect, test } from 'vitest';
 
-import app from '../server'
+import app from '../server';
 
 test('basic server test ', async () => {
-    const response = await request(app.callback()).get('/')
+  const response = await request(app.callback()).get('/');
 
-    expect(response.statusCode).toBe(200)
-})
+  expect(response.statusCode).toBe(200);
+});
