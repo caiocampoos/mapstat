@@ -1,12 +1,12 @@
 module.exports = {
   extends: [
-    "next",
-    "turbo", 
-    "prettier",
+    'next',
+    'turbo', 
+    'prettier',
   ],
   rules: {
-    "@next/next/no-html-link-for-pages": "off",
-    quotes: [2, 'single', { allowTemplateLiterals: true, avoidEscape: true }],
+    '@next/next/no-html-link-for-pages': 'off',
+    'quotes': ['error', 'single', { 'avoidEscape': true }],
     'jsx-quotes': [2, 'prefer-single'],
     'no-console': 2,
     'no-return-await': 0,
@@ -35,7 +35,7 @@ module.exports = {
 
   parserOptions: {
     babelOptions: {
-      presets: [require.resolve("next/babel")],
+      presets: [require.resolve('next/babel')],
     },
   },
 };

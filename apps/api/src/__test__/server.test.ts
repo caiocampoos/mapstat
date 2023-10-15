@@ -1,5 +1,5 @@
-import { afterAll, expect, test } from 'vitest'
 import request from 'supertest';
+import { afterAll, expect, test } from 'vitest'
 
 import app from '../server'
 
