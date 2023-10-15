@@ -4,11 +4,11 @@
 build
 data
 
-node_modules/
+/**/node_modules/
 target/
 .next/
 build/
-dist/
+/**/dist/
 
 /examples/
 

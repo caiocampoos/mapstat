@@ -14,6 +14,8 @@ import { Logger } from './utils/logger';
   }
 
   server.listen(process.env['PORT'], () => {
-    Logger.info(`Server started on port http://localhost:${process.env['PORT']}`);
+    Logger.info(
+      `Server started on port http://localhost:${process.env['PORT']}`,
+    );
   });
 })();
