@@ -1,8 +1,9 @@
-import mongoose from "mongoose";
-import { it, expect } from "vitest";
-import { connectDB } from "../db/connect";
+import mongoose from 'mongoose';
+import { it, expect } from 'vitest';
 
-it("connects to mongodb", () => {
+import { connectDB } from '../db/connect';
+
+it('connects to mongodb', () => {
   expect(async () => {
     const connection = await connectDB({});
   }).not.toThrow();
