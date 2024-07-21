@@ -1,4 +1,3 @@
-'use client';
 import { LatLngExpression, MapOptions } from 'leaflet';
 import { MapContainer, TileLayer, useMap } from 'react-leaflet';
 
