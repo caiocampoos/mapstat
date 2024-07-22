@@ -1,8 +1,5 @@
 /* src/variables.css */
 :root {
-  /* Colors */
-
-  //Neutral
   --color-neutral-50: #fafafa;
   --color-neutral-100: #f0f0f0;
   --color-neutral-200: #e0e0e0;
@@ -14,7 +11,6 @@
   --color-neutral-800: #262626;
   --color-neutral-900: #131313;
 
-  //Primary
   --color-primary-50: #ffeee5;
   --color-primary-100: #ffceb2;
   --color-primary-200: #ffad7f;
@@ -26,7 +22,6 @@
   --color-primary-800: #662400;
   --color-primary-900: #331200;
 
-  //Secondary
   --color-secondary-50: #ecf5f7;
   --color-secondary-100: #c8e1e9;
   --color-secondary-200: #b5d7e2;
@@ -38,7 +33,6 @@
   --color-secondary-800: #1c3e49;
   --color-secondary-900: #0e1f24;
 
-  //Success
   --color-success-50: #ECFDF5;
   --color-success-100: #D1FAE5;
   --color-success-200: #A7F3D0;
@@ -50,7 +44,6 @@
   --color-success-800: #065F46;
   --color-success-900: #064E3B;
 
-  //Warning
   --color-warning-50: #FFFBEB;
   --color-warning-100: #FEF3C7;
   --color-warning-200: #FDE68A;
@@ -62,7 +55,6 @@
   --color-warning-800: #7f5b00;
   --color-warning-900: #664800;
 
-  //Error
   --color-error-50: #FEF2F2;
   --color-error-100: #FEE2E2;
   --color-error-200: #FECACA;
@@ -74,11 +66,9 @@
   --color-error-800: #991B1B;
   --color-error-900: #7F1D1D;
 
-  //Shades
   --color-shades-0: #FFFFFF;
   --color-shades-100: #000000;
 
-  //Darkmode
   --color-darkmode-50: #383838;
   --color-darkmode-100: #353535;
   --color-darkmode-200: #333333;
@@ -91,3 +81,35 @@
   --color-darkmode-900: #121212;
 }
 
+.radix-themes {
+  /* Typography */
+  --default-font-family: 'Roboto';
+  --heading-font-family: 'Roboto';
+  --quote-font-family: 'Roboto';
+
+  /* Colors */
+  --orange-1: var(--color-primary-50);
+  --orange-4: var(--color-primary-100);
+  --orange-6: var(--color-primary-200);
+  --orange-7: var(--color-primary-300);
+  --orange-8: var(--color-primary-400);
+  --orange-9: var(--color-primary-500);
+  --orange-10: var(--color-primary-600);
+  --orange-11: var(--color-primary-700);
+  --orange-12: var(--color-primary-800);
+
+  --orange-a1: var(--color-primary-700);
+  --orange-a4: var(--color-primary-400);
+  --orange-a6: var(--color-primary-200);
+  --orange-a7: var(--color-primary-100);
+  --orange-a8: var(--color-primary-50);
+  --orange-a9: var(--color-primary-100);
+  --orange-a10: var(--color-primary-200);
+  --orange-a11: var(--color-primary-300);
+  --orange-a12: var(--color-primary-400);
+
+  --orange-contrast: #fff;
+  --orange-surface: #fff3eccc;
+  --orange-indicator: #ff5c00;
+  --orange-track: #ff5c00;
+}

@@ -1,2 +1,3 @@
 // component exports
-export *  as Map from './map/Map';
+export * from './components';
+export default 'global.css';
