@@ -25,7 +25,7 @@ const variantStyles = {
   },
 };
 
-interface TextFieldProps extends React.ComponentProps<typeof StyledTextFieldInput> {
+export interface TextFieldProps extends React.ComponentProps<typeof StyledTextFieldInput> {
   variant?: 'classic' | 'surface' | 'soft';
 }
 
